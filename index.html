@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador EC</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>CONTADOR EC</h1>
+        <p>Calculadora Tributaria para Ecuador</p>
+
+        <label>Base Imponible</label>
+        <input type="number" id="base" placeholder="1000">
+
+        <label>Tipo de IVA</label>
+        <select id="tipoIVA">
+            <option value="15">15%</option>
+            <option value="0">0%</option>
+        </select>
+
+        <label>IVA Calculado</label>
+        <input type="text" id="iva" readonly>
+
+        <label>Buscar Concepto de Retención</label>
+        <input type="text" id="buscarConcepto" placeholder="Ej: honorarios, transporte, publicidad">
+
+        <select id="concepto">
+            <option value="">Seleccione...</option>
+        </select>
+
+        <div id="infoRetencion">
+            Código: -
+            <br>
+            Porcentaje: -
+        </div>
+
+        <label>Retención IVA</label>
+        <select id="retIva">
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+            <option value="50">50%</option>
+            <option value="70">70%</option>
+            <option value="100">100%</option>
+        </select>
+
+        <button id="btnCalcular">Calcular</button>
+        <button id="btnLimpiar">Limpiar</button>
+        <button id="btnPDF">Descargar PDF</button>
+        <button id="btnWhatsApp">Compartir por WhatsApp</button>
+        <div id="resultado">
+        <div id="historial">
+            <h2>Historial de Cálculos</h2>
+            <button id="btnEliminarHistorial">
+                Eliminar Historial
+            </button>
+            <ul id="listaHistorial"></ul>
+        </div>
+
+<h2>Resultado</h2>
+
+<p>Retención IR: <span id="retIR">$0.00</span></p>
+
+<p>Retención IVA: <span id="retIVA">$0.00</span></p>
+
+<p>Valor Neto: <span id="valorNeto">$0.00</span></p>
+
+</div>
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,180 @@
+  {
+    "codigo": "303A",
+    "concepto": "Servicios profesionales prestados por sociedades residentes",
+    "porcentaje": 5.0
+  },
+  {
+    "codigo": "304A",
+    "concepto": "Comisiones y demás pagos por servicios predomina intelecto no relacionados con el título profesional",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "304B",
+    "concepto": "Pagos a notarios y registradores de la propiedad y mercantil por sus actividades ejercidas como tales",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "304C",
+    "concepto": "Pagos a deportistas, entrenadores, árbitros, miembros del cuerpo técnico por sus actividades ejercidas como tales",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "304D",
+    "concepto": "Pagos a artistas por sus actividades ejercidas como tales",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "304E",
+    "concepto": "Honorarios y demás pagos por servicios de docencia",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "314A",
+    "concepto": "Regalías por concepto de franquicias de acuerdo al Código INGENIOS (COESCCI) - pago a personas naturales",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "314B",
+    "concepto": "Cánones, derechos de autor,  marcas, patentes y similares de acuerdo  al Código INGENIOS (COESCCI) – pago a personas naturales",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "314C",
+    "concepto": "Regalías por concepto de franquicias de acuerdo al Código INGENIOS (COESCCI) - pago a sociades",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "314D",
+    "concepto": "Cánones, derechos de autor,  marcas, patentes y similares de acuerdo  al Código INGENIOS (COESCCI)",
+    "porcentaje": 10.0
+  },
+  {
+    "codigo": "323A",
+    "concepto": "Rendimientos financieros depósitos Cta. Corriente",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323B1",
+    "concepto": "Rendimientos financieros  depósitos Cta. Ahorros Sociedades",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323E",
+    "concepto": "Rendimientos financieros depósito a plazo fijo  gravados",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323F",
+    "concepto": "Rendimientos financieros operaciones de reporto - repos",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323G",
+    "concepto": "Inversiones (captaciones) rendimientos distintos de aquellos pagados a IFIs",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323H",
+    "concepto": "Rendimientos financieros  obligaciones",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323I",
+    "concepto": "Rendimientos financieros  bonos convertible en acciones",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323 M",
+    "concepto": "Rendimientos financieros : Inversiones en títulos valores en renta fija gravados",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323 P",
+    "concepto": "Intereses pagados por entidades del sector público a favor de sujetos pasivos",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323Q",
+    "concepto": "Otros intereses y rendimientos financieros gravados",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "323S",
+    "concepto": "Pagos y créditos en cuenta efectuados por el BCE y los depósitos centralizados de valores, en calidad de intermediarios, a instituciones del sistema financiero por cuenta de otras personas naturales y sociedades",
+    "porcentaje": 3.0
+  },
+  {
+    "codigo": "324A",
+    "concepto": "Intereses en operaciones de crédito entre instituciones del sistema financiero y entidades economía popular y solidaria.",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "324B",
+    "concepto": "Inversiones entre instituciones del sistema financiero y entidades economía popular y solidaria",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "324C",
+    "concepto": "Pagos y créditos en cuenta efectuados por el BCE y los depósitos centralizados de valores, en calidad de intermediarios, a instituciones del sistema financiero por cuenta de otras instituciones del sistema financiero",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "325A",
+    "concepto": "Préstamos accionistas, beneficiarios o partícipes residentes o establecidos en el Ecuador",
+    "porcentaje": 25.0
+  },
+  {
+    "codigo": "343A",
+    "concepto": "Energía eléctrica",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "343B",
+    "concepto": "Actividades de construcción de obra material inmueble, urbanización, lotización o actividades similares",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "343C",
+    "concepto": "Recepción de botellas plásticas no retornables de PET",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "344A",
+    "concepto": "Pago local tarjeta de crédito /débito reportada por la Emisora de tarjeta de crédito / entidades del sistema financiero/sistemas auxiliares de pago",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "344B",
+    "concepto": "Adquisición de sustancias minerales dentro del territorio nacional",
+    "porcentaje": 2.0
+  },
+  {
+    "codigo": "504E",
+    "concepto": "Pago a no residentes - Anticipo dividendos (no domiciliada en paraísos fiscales o regímenes de menor imposición)",
+    "porcentaje": 25.0
+  },
+  {
+    "codigo": "504F",
+    "concepto": "Pago a no residentes - Anticipo dividendos (domiciliadas en paraísos fiscales o regímenes de menor imposición)",
+    "porcentaje": 25.0
+  },
+  {
+    "codigo": "504G",
+    "concepto": "Pago a no residentes - Préstamos accionistas, beneficiarios o partícipes (no domiciliadas en paraísos fiscales o regímenes de menor imposición)",
+    "porcentaje": 25.0
+  },
+  {
+    "codigo": "504H",
+    "concepto": "Pago a no residentes - Préstamos accionistas, beneficiarios o partícipes (domiciliadas en paraísos fiscales o regímenes de menor imposición)",
+    "porcentaje": 25.0
+  },
+  {
+    "codigo": "504I",
+    "concepto": "Pago a no residentes - Préstamos no comerciales a partes relacionadas  (no domiciliadas en paraísos fiscales o regímenes de menor imposición)",
+    "porcentaje": 25.0
+  },
+  {
+    "codigo": "504J",
+    "concepto": "Pago a no residentes - Préstamos no comerciales a partes relacionadas  (domiciliadas en paraísos fiscales o regímenes de menor imposición)",
+    "porcentaje": 25.0
+  }
