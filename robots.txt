@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rodybm15-beep.github.io/contador-ec/sitemap.xml
