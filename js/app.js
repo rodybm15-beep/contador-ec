@@ -263,22 +263,70 @@ document.getElementById("btnPDF").addEventListener("click", () => {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
+    // ===== ENCABEZADO =====
+    doc.setFontSize(20);
+    doc.setFont("helvetica", "bold");
+    doc.text("Calculadora Tributaria EC", 105, 20, { align: "center" });
+
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "normal");
+    doc.text("Actualizado 01 de marzo 2026", 105, 30, { align: "center" });
+
+    // Línea separadora
+    doc.line(20, 35, 190, 35);
+
+    // ===== TÍTULO =====
+    doc.setFontSize(14);
+    doc.setFont("helvetica", "bold");
+    doc.text("REPORTE DE RETENCIONES", 60, 45);
+
+    // ===== DATOS =====
+    let y = 60;
+
+    const datos = [
+        ["Fecha", ultimoCalculo.fecha],
+        ["Código", ultimoCalculo.codigo],
+        ["Concepto", ultimoCalculo.concepto],
+        ["Porcentaje IR", `${ultimoCalculo.porcentaje}%`],
+        ["Base Imponible", formatoMoneda(ultimoCalculo.base)],
+        ["IVA", formatoMoneda(ultimoCalculo.iva)],
+        ["Retención IR", formatoMoneda(ultimoCalculo.retencionIR)],
+        ["Retención IVA", formatoMoneda(ultimoCalculo.retencionIVA)]
+    ];
+
+    datos.forEach(item => {
+        doc.setFont("helvetica", "bold");
+        doc.text(`${item[0]}:`, 20, y);
+
+        doc.setFont("helvetica", "normal");
+        doc.text(`${item[1]}`, 70, y);
+
+        y += 12;
+    });
+
+    // Línea separadora
+    doc.line(20, y, 190, y);
+
+    // ===== TOTAL =====
+    y += 15;
+
+    doc.setFontSize(16);
+    doc.setFont("helvetica", "bold");
+    doc.text("VALOR NETO A PAGAR", 20, y);
+
+    y += 10;
+
     doc.setFontSize(18);
-    doc.text("CONTADOR EC", 20, 20);
+    doc.text(`${formatoMoneda(ultimoCalculo.neto)}`, 20, y);
 
-    doc.setFontSize(12);
-    doc.text(`Fecha: ${ultimoCalculo.fecha}`, 20, 35);
-    doc.text(`Código: ${ultimoCalculo.codigo}`, 20, 45);
-    doc.text(`Concepto: ${ultimoCalculo.concepto}`, 20, 55);
-    doc.text(`Porcentaje: ${ultimoCalculo.porcentaje}%`, 20, 65);
-    doc.text(`Base Imponible: ${formatoMoneda(ultimoCalculo.base)}`, 20, 75);
-    doc.text(`IVA: ${formatoMoneda(ultimoCalculo.iva)}`, 20, 85);
-    doc.text(`Retención IR: ${formatoMoneda(ultimoCalculo.retencionIR)}`, 20, 95);
-    doc.text(`Retención IVA: ${formatoMoneda(ultimoCalculo.retencionIVA)}`, 20, 105);
-    doc.text(`Valor Neto: ${formatoMoneda(ultimoCalculo.neto)}`, 20, 115);
+    // ===== PIE DE PÁGINA =====
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "italic");
+    doc.text("Generado por RBM Gestión Financiera", 20, 280);
 
-    doc.save("retencion.pdf");
-
+    doc.save("Reporte_RBM.pdf");
+  
+  
 });
 document.getElementById("btnWhatsApp").addEventListener("click", () => {
 
